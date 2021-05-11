@@ -36,14 +36,13 @@ INSERT INTO JOGOS
 VALUES(1, 'PES', 'SIMULADOR, ESPORTES', 50.00, GETDATE(), NULL, 'O melhor jogo de futebol.')
 
 INSERT INTO JOGOS
-VALUES(1, 'LOL', 'RPG', 200.00, GETDATE(), NULL, 'O jogo mais famoso do mundo.')
+VALUES(2, 'LOL', 'RPG', 200.00, GETDATE(), NULL, 'O jogo mais famoso do mundo.')
 
 CREATE TABLE PARAMETROS_PROJETO
 (
     DESCRICAO_PARAMETRO TEXT
 )
 INSERT INTO PARAMETROS_PROJETO VALUES ('descricao única')
-INSERT INTO PARAMETROS_PROJETO VALUES ('descricao única nova')
 
 SELECT
     *
